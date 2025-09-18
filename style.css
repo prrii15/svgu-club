@@ -134,3 +134,65 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Dashboard Header */
+.dashboard-header {
+  text-align: center;
+  background: #4A90E2;
+  color: white;
+  padding: 20px;
+  border-bottom: 4px solid #357ABD;
+}
+
+/* Clubs container */
+.clubs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Club card */
+.club-card {
+  position: relative;
+  height: 220px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.club-card:hover {
+  transform: scale(1.05);
+}
+
+/* Dark overlay for readability */
+.club-card .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 14px;
+}
+
+/* Button */
+.club-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #FFD700;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.club-btn:hover {
+  background: #FFC107;
+}
+
+
