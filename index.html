@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WT Project - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="login-box">
+    <h2>WELCOME TO SVGU<br> CHIMAN BHAI PATEL INSTITUTE OF COMPUTER APPLICATIONS</h2>
+    <div class="logo">
+      <img src="https://cpi.edu.in/wp-content/uploads/2023/05/cropped-SVGUlogo-1-e1682948754111-1.png" alt="SVGU Club Logo">
+    </div>
+    <h3>LOGIN PAGE</h3>
+
+    <form onsubmit="return validateLogin()">
+      <div class="input-box">
+        <label for="username">USERNAME</label>
+        <input type="text" id="username" placeholder="Enter username" required>
+      </div>
+      <div class="input-box">
+        <label for="password">PASSWORD</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+      </div>
+      <div class="forgot">
+        <a href="forgot.html">FORGET PASSWORD</a>
+      </div>
+      <button type="submit" class="btn">SUBMIT</button>
+    </form>
+  </div>
+
+  <script>
+    function validateLogin() {
+      let user = document.getElementById("username").value;
+      let pass = document.getElementById("password").value;
+
+      if (user === "abc" && pass === "1234") {
+        window.location.href = "welcome.html";
+        return false; 
+      } else {
+        alert("Invalid Username or Password!");
+        return false;
+      }
+    }
+  </script>
+</body>
+</html>

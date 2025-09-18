@@ -1,0 +1,136 @@
+/* Background Image */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container Box */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 380px;
+}
+
+/* Titles */
+.container h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Logo */
+.logo img {
+  width: 160px;
+  margin: 15px 0;
+}
+
+/* Subtitles */
+.container h3 {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Input Fields */
+.input-box {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+/* Forgot Password Link */
+.forgot {
+  margin: 10px 0;
+  text-align: right;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 14px;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #218838;
+}
+
+/* Dropdown Styling */
+.dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Custom Fonts */
+h2.welcome {
+  font-family: 'Georgia', serif;
+  font-size: 26px;
+  color: #6a1b9a;
+}
+
+h1.a {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  color: #007BFF;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://image-static.collegedunia.com/public/college_data/images/appImage/1594203457Cover.png?h=240&w=1000&mode=crop") no-repeat center center/cover; 
+  /* replace background.jpg with your image file name */
+}
+.login-box {
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+  border-radius: 12px;
+  padding: 40px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+

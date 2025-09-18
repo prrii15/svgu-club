@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome - SVGU Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="welcome">Welcome to SVGU Clubs 🎉</h2>
+    <p>Please select which club you are in:</p>
+
+    <select id="club" class="dropdown" required>
+      <option value="">-- Select Club --</option>
+      <option value="coding">Coding Club</option>
+      <option value="dance">Dance Club</option>
+      <option value="music">Music Club</option>
+      <option value="drama">Drama Club</option>
+      <option value="sports">Sports Club</option>
+      <option value="arts">Arts Club</option>
+      <option value="literature">Literature Club</option>
+    </select>
+
+    <p>Select your role:</p>
+    <select id="role" class="dropdown" required>
+      <option value="">-- Select Role --</option>
+      <option value="member">Member</option>
+      <option value="leader">Leader</option>
+      <option value="mentor">Mentor</option>
+    </select>
+
+    <button class="btn" onclick="submitSelection()">Submit</button>
+  </div>
+
+  <script>
+    function submitSelection() {
+      let club = document.getElementById("club").value;
+      let role = document.getElementById("role").value;
+
+      if (club && role) {
+        window.location.href = "club-confirmation.html";
+      } else {
+        alert("Please select both club and role!");
+      }
+    }
+  </script>
+</body>
+</html>
