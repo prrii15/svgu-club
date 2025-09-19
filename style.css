@@ -145,22 +145,21 @@ body {
 
 /* Clubs container */
 .clubs-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;   /* allows next row if space is full */
+  gap: 20px;         /* spacing between cards */
+  justify-content: center;
+  margin-top: 20px;
 }
 
-/* Club card */
 .club-card {
-  position: relative;
-  height: 220px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
   border-radius: 12px;
-  background-size: cover;
-  background-position: center;
-  text-align:center;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
-  transition: transform 0.3s ease;
+  width: 280px;         /* fixed width so they align */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
 
 .club-card:hover {
@@ -306,5 +305,6 @@ body.music-club-page {
   background: url("https://www.hollywoodreporter.com/wp-content/uploads/2021/11/39bob_musicschools_MAIN.jpg") no-repeat center center fixed !important;
   background-size: cover !important;
 }
+
 
 
