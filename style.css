@@ -296,3 +296,8 @@ body.music-club-page {
   background-size: cover;
 }
 
+/* Background override only for Music Club page */
+body.music-club-page {
+  background: url("https://www.hollywoodreporter.com/wp-content/uploads/2021/11/39bob_musicschools_MAIN.jpg") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
