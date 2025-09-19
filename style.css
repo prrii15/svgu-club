@@ -219,25 +219,38 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.club-card a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 6px 12px;
-  background: #4A90E2;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
+.club-card {
+  background: white;              /* Solid white background */
+  padding: 20px;
+  border-radius: 8px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* stronger shadow */
+  transition: transform 0.3s;
 }
 
-/* Club Page */
+.club-card h2 {
+  color: #333;        /* Dark text */
+  margin-bottom: 10px;
+}
+
+.club-card p {
+  color: #555;
+}
+
 .club-header {
   text-align: center;
-  background: #FFD700;
-  padding: 15px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('music-bg.jpg');
+  background-size: cover;
+  color: white;          /* White text for contrast */
+  padding: 20px;
 }
 
 .club-info, .comments {
+  background: rgba(255,255,255,0.9); /* Light background behind text */
+  margin: 20px;
   padding: 20px;
+  border-radius: 8px;
 }
 
 .comments form {
@@ -261,4 +274,5 @@ body {
   list-style: none;
   padding: 0;
 }
+
 
