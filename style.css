@@ -116,6 +116,12 @@ h1.a {
   margin-bottom: 20px;
 }
 
+h1.names{
+  font-family: 'Trebuchet MS',sans-serif;
+  font-size:28px;
+  text-align:bottom;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -327,6 +333,7 @@ body.drama-club-page {
 }
 /* marquee*/
 a.align{vertcle-align:text-top;}
+
 
 
 
