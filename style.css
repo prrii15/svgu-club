@@ -285,4 +285,9 @@ body {
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   color: #000; /* black text for readability */
 }
+/* Override for dashboard and club pages */
+body.dashboard-page, body.club-page {
+  display: block;   /* Remove flexbox centering */
+  padding: 20px;
+}
 
