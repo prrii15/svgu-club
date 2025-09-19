@@ -116,11 +116,6 @@ h1.a {
   margin-bottom: 20px;
 }
 
-h1.names{
-  font-family: 'Trebuchet MS',sans-serif;
-  font-size:28px;
-  text-align:bottom;
-}
 
 body {
   margin: 0;
@@ -333,6 +328,20 @@ body.drama-club-page {
 }
 /* marquee*/
 a.align{vertcle-align:text-top;}
+
+/* Footer / Credits */
+.credits {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff; /* white text */
+  background: rgba(0,0,0,0.6); /* dark semi-transparent background */
+  border-radius: 8px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
