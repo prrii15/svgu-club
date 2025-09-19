@@ -138,12 +138,13 @@ body {
 
 /* Dashboard Header */
 .dashboard-header {
-  text-align: center;
-  background: #4A90E2;
-  color: white;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* purple-blue gradient */
   padding: 20px;
-  border-bottom: 4px solid #357ABD;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
 }
+
 
 /* Clubs container */
 .clubs-container {
@@ -343,6 +344,7 @@ a.align{vertcle-align:text-top;}
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
