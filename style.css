@@ -197,13 +197,6 @@ body {
   background: #FFC107;
 }
 
-/* Dashboard */
-.dashboard-header {
-  text-align: center;
-  background: WHITE;
-  color: white;
-  padding: 20px;
-}
 
 .clubs-container {
   display: grid;
@@ -344,6 +337,7 @@ a.align{vertcle-align:text-top;}
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
