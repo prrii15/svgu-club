@@ -306,5 +306,14 @@ body.music-club-page {
   background-size: cover !important;
 }
 
+body.stem-club-page {
+  background: url("https://www.scitech.org.au/wp-content/uploads/2023/07/CR-1015-STEM-Club-1280x628-no-book-button.jpg") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+body.socialoutreach-club-page {
+  background: url("https://3dfbfedc95.clvaw-cdnwnd.com/b59df3af93dc58d9194f0e9ebdf884b9/200000019-6affe6bf9a/outreach1.jpg?ph=3dfbfedc95") no-repeat center center fixed !important;
+  background-size: cover !important;
+}
 
 
