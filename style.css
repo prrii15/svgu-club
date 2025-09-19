@@ -290,4 +290,9 @@ body.dashboard-page, body.club-page {
   display: block;   /* Remove flexbox centering */
   padding: 20px;
 }
+/* Background override only for Music Club page */
+body.music-club-page {
+  background: url("https://www.hollywoodreporter.com/wp-content/uploads/2021/11/39bob_musicschools_MAIN.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 
