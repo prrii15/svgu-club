@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Club - SVGU</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="club-header">
+    <h1>🎵 Music Club</h1>
+    <p>Faculty Incharge: Prof. Sharma</p>
+  </header>
+
+  <section class="club-info">
+    <h2>About the Club</h2>
+    <p>The Music Club is for students passionate about singing, instruments, and performing arts.</p>
+
+    <h2>Members</h2>
+    <ul>
+      <li>Priyanshi</li>
+      <li>Rohan</li>
+      <li>Aditi</li>
+      <li>Karan</li>
+    </ul>
+  </section>
+
+  <section class="comments">
+    <h2>Leave a Message</h2>
+    <form onsubmit="postComment(event)">
+      <input type="text" id="commentInput" placeholder="Type your message..." required>
+      <button type="submit">Post</button>
+    </form>
+    <ul id="commentList"></ul>
+  </section>
+
+  <script>
+    function postComment(event) {
+      event.preventDefault();
+      let input = document.getElementById("commentInput");
+      let commentList = document.getElementById("commentList");
+
+      let newComment = document.createElement("li");
+      newComment.textContent = input.value;
+
+      commentList.appendChild(newComment);
+      input.value = "";
+    }
+  </script>
+</body>
+</html>
