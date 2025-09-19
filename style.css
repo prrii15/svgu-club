@@ -4,6 +4,7 @@ body {
   background: url('bg.jpg') no-repeat center center fixed;
   background-size: cover;
   display: flex;
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -342,6 +343,7 @@ a.align{vertcle-align:text-top;}
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
