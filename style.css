@@ -325,6 +325,8 @@ body.drama-club-page {
   background: url("https://teachnews.gr/media/k2/items/cache/2e982f65432588c32a492f05619f3935_XL.jpg") no-repeat center center fixed !important;
   background-size: cover !important;
 }
+/* marquee*/
+a.align{vertcle-align:text-top;}
 
 
 
