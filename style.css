@@ -23,6 +23,7 @@ body {
 
 /* Titles */
 .container h2 {
+  text-align:center;
   font-size: 22px;
   margin-bottom: 10px;
   color: #444;
@@ -30,12 +31,14 @@ body {
 
 /* Logo */
 .logo img {
+  display: inline-block;
   width: 160px;
   margin: 15px 0;
 }
 
 /* Subtitles */
 .container h3 {
+  text-align:center;
   margin: 15px 0;
   font-size: 18px;
   color: #333;
@@ -337,6 +340,7 @@ a.align{vertcle-align:text-top;}
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 
